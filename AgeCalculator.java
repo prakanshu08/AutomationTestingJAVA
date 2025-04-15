@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class AgeCalculator {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class AgeCalculator {
         } else if (age <= 59) {
             System.out.println("User is ADULT ");
         }else{
-            System.out.println("User is SENIOR ");
+            System.out.println("User is SENIOR Citizen ");
         }
 
     }
